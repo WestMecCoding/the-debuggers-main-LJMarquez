@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="icon" type="image/x-icon" href="./assets/Images/Shopping_Cart_Icon_PNG_Clipart.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/6e0ca69a51.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+          <div id="logo"></div>
+        <div id="logo-top"></div>
+        <div id="logo-shop">
+          <a href="cart.html" target="_blank">
+            <img src="./assets/Images/Shopping_Cart_Icon_PNG_Clipart.png" alt="">
+          </a>
+          <p id="cart-item-number">0</p>
+        </div>
+      </nav>
+      <h1>Cart:</h1>
+    <div id="cart-wrapper">
+        <div id="cart-items" class="cart-column">
+            <div class="item">
+                <div class="cart-img">
+                    <img src="./assets/Products/coco.png" alt="">
+                    <span id="item-name">Choco</span>
+                </div>
+                <div>
+                    <p id="item-price">$99.99</p>
+                </div>
+            </div>
+        </div>
+        <div id="checkout" class="cart-column">
+            <h1>Checkout</h1>
+            <h3>Payment Method:</h3>
+            <select name="payment-select" id="payment-select">
+                <option value="credit">Credit/Debit Card</option>
+                <option value="paypal">PayPal</option>
+                <option value="apple">Apple Pay</option>
+                <option value="soul">Your Soul</option>
+                <option value="kidneys">Your Kidneys</option>
+            </select>
+            <h2>Total:</h2>
+            <p id="cart-total"></p>
+        </div>
+    </div>
+</body>
+</html>
