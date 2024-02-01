@@ -52,6 +52,15 @@ let products = [
     image: "pish.png",
     desc: "Vegan fish refers to plant-based alternatives that mimic the taste, texture, and appearance of traditional fish without using any animal products. These alternatives can be made from various plant-based ingredients such as tofu, seaweed, or other proteins, offering a cruelty-free option for individuals following a vegan diet. Buy for $9.99 (Taxes included)",
     price: 9.99,
+<<<<<<< HEAD
+=======
+  },
+  {
+    text: "Borcelle® French Fries™",
+    image: "fries.png",
+    desc: "French fries are thin strips of potatoes that are deep-fried until crispy and golden brown. They are a popular and widely enjoyed snack or side dish, often seasoned with salt and served with various dipping sauces. Sold for only $6.99  (Taxes included)",
+    price: 6.99,
+>>>>>>> 07cfdd67fea8ffbecd649917e7a5504c0305f57e
   },
   {
     text: "Borcelle®  Vegan Bagel™",
