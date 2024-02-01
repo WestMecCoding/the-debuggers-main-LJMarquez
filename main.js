@@ -55,13 +55,7 @@ let products = [
 <<<<<<< HEAD
 =======
   },
-  {
-    text: "Borcelle® French Fries™",
-    image: "fries.png",
-    desc: "French fries are thin strips of potatoes that are deep-fried until crispy and golden brown. They are a popular and widely enjoyed snack or side dish, often seasoned with salt and served with various dipping sauces. Sold for only $6.99  (Taxes included)",
-    price: 6.99,
->>>>>>> 07cfdd67fea8ffbecd649917e7a5504c0305f57e
-  },
+  
   {
     text: "Borcelle®  Vegan Bagel™",
     image: "bagel.png",
