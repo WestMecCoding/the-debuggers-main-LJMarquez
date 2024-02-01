@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="./assets/Images/Shopping_Cart_Icon_PNG_Clipart.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="cart.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/6e0ca69a51.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <a id="logo" href="index.html"></a>
+      <div id="logo-top"></div>
+      <div id="logo-shop">
+        <a href="cart.html">
+          <img
+            id="cart-img-z-index"
+            src="./assets/Images/Shopping_Cart_Icon_PNG_Clipart.png"
+            alt=""
+          />
+        </a>
+        <p id="cart-item-number"><a href="cart.html"></a></p>
+      </div>
+    </nav>
+    <h1 id="cart-header">Cart:</h1>
+    <div id="cart-wrapper">
+      <div id="cart-items" class="cart-column">
+        <p id="no-items">There are no items in your cart</p>
+      </div>
+      <div id="checkout" class="cart-column">
+        <h1>Checkout</h1>
+        <h3>Payment Method:</h3>
+        <select name="payment-select" id="payment-select">
+          <option value="credit">Credit/Debit Card</option>
+          <option value="paypal">PayPal</option>
+          <option value="apple">Apple Pay</option>
+        </select>
+        <div id="total-wrapper">
+          <h2>Total:</h2>
+          <p id="cart-total"></p>
+        </div>
+        <button id="checkout-button" onclick="checkout()">Checkout</button>
+        <!-- <p id="cart-content-test">Content Test</p> -->
+        <!-- <button type="button" onclick="clCart()">Console Log Array</button> -->
+      </div>
+    </div>
+  </body>
+</html>
